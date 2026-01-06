@@ -1,12 +1,14 @@
 # Training and Inference Environments
 I recommend to install requirements with:
->> pip install requirements.txt
-
+```
+pip install requirements.txt
+```
 or
 
 You can use docker images by pulling:
->> docker pull bchoi818/cu128-torch2.7:latest
-
+```
+docker pull bchoi818/cu128-torch2.7:latest
+```
 
 # For Training
 For pretraining, we incorporated dmrau/kilt-128 from huggingface but merged both chunk to construct an entire passage.
