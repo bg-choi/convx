@@ -1,4 +1,6 @@
-# Training and Inference Environments
+# ConvX: A Lightweight Converter to Bridge Indexed Dense Representations and Large Language Models for Retrieval-Augmented Generation
+
+## Training and Inference Environments
 I recommend to install requirements with:
 ```
 pip install requirements.txt
