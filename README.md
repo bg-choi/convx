@@ -32,6 +32,7 @@ run stage 3:
 bash scripts/stage3.sh stage_3 $output_dir $path_to_stage2_checkpoint $mem_size $n_passages_per_sample
 ```
 
+# For Inference
 ## Inference
 ```
 bash scripts/inference.sh stage_3 $path_to_stage3_checkpoint $eval_data $n_passages_per_sample
